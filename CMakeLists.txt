@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.8)
 project (Design_ADC)
 
-# important !!! export SYSTEMC and SYSTEMC_AMS
+# important !!! export SYSTEMC and SYSTEMCAMS
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake-files)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)

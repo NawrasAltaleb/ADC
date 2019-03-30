@@ -233,7 +233,7 @@ int sc_main(int argc, char* argv[]) {
 		}
 
 	/////// running the simulation
-	int sim_duration = 200;
+	int sim_duration = 10;
 	time_t start_time = time(0);
 	cout << "Start generating files at time: "<<asctime(localtime(&start_time))<<"\t\tadc_inner_control_signals.vcd\n\t\tadc_inner_data_signals.dat\n\t\tCDR_data.vcd"<< endl;
 

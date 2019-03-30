@@ -327,7 +327,7 @@ private:
 						temp = ("0","0",temp.range(11,2));
 				}
 				for(int i=11;i>=0;i--)
-					adc_reg[ADC_CDR0_ + write_sel.read()*4].reg_data[i] = temp[i];
+					adc_reg[ADC_CDR0_ + write_sel.read()*4].reg_data[i] = (bool)temp[i];
 
 #ifdef DISPLAY_ALLOCATION
 				std::cout<<"t_current = "<<this->get_time().to_seconds()<<" adc_out "<<temp.range(11,0)<<"-  adc_reg["<<write_sel.read()<<"]: ";
